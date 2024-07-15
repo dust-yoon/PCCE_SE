@@ -11,3 +11,5 @@ print('안녕하세요, ' + name + '님')
 age = int(input('나이를 입력해 주세요: '))
 next_age = age +1
 print('내년에는 ' + str(next_age) + '세입니다.')
+
+print(0)
