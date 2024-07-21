@@ -32,3 +32,17 @@ print(word2)
 
 # hello  world
 # helloworld
+
+
+print("10부터 100까지의 수 중 짝수만 다한 값을 구하시오.")
+answer = 0
+for i in range(10 , 101 , 2):
+    answer += i
+print(answer)
+
+answers = 0
+numbers = range(10, 101)
+for i in numbers:
+    if i % 2 == 0:
+        answers += i
+print(answers)
