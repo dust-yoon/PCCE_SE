@@ -139,3 +139,24 @@ sentence1 = f"{university} 학생 여러분, {day}일차 강의를 열심히 들
 print(sentence1)
 
 # range (반복문 할 때 한번 더 할거임.)
+
+
+## 간단한 아보카도 어쩌구 예시 컨테이너 자료형 이용
+shopping_list = []
+mart = ['avocado', 'banana', 'milk', 'egg']
+if "avocado" in mart:
+    shopping_list += ['milk'] * 6
+else:
+    shopping_list.append('milk')
+
+print(shopping_list)
+
+shopping_list = []
+mart = ['avocado', 'banana', 'milk', 'egg']
+shopping_list.append('milk')
+
+if "avocado" in mart:
+    shopping_list += ['avocado']
+
+print(shopping_list)
+print(len(shopping_list))
