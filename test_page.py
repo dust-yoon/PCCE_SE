@@ -99,3 +99,56 @@
 #     if nums[i-1] >= num:
 #         num = nums[i-1]
 # print(num)
+
+# - 지금까지 학습한 random, time 모듈을 이용하여 `카운트다운이 있는 로또 번호 추첨기`를 만들어보자.
+# - **추첨기는 다음과 같은 순서로 동작한다.**
+#     1. 프로그램을 실행과 동시에 `5초의 카운트다운`이 진행된다. 1초가 흐를 때 마다 `“4초 남았습니다.”`와 같이 남은 시간을 출력한다.
+#     2. 카운트다운이 종료되면, 1부터 45까지의 수 중 6개의 숫자를 무작위로 추출한다.
+#     3. 6개의 숫자를 오름차순으로 정렬하여 출력한다.
+
+# import random
+# import time
+# i = 0
+# for i in range(5,0,-1):
+#     print(f'"{i}초 남았습니다."')
+#     time.sleep(1)
+# print(sorted(random.sample(range(1,46),6)))
+
+# matrix = [
+#     [0, 5, 3, 1],
+#     [4, 6, 10, 8],
+#     [9, -1, 1, 5]
+# ]
+# print(range(len(matrix)))
+
+# num_list = [2, 4, 5, 3, 6]
+# answer = []
+# for num in num_list:
+#     answer.append(0)
+#     if num == 2:
+#         answer.pop()
+#         answer.append(True)
+#     else:
+#         for i in range(2,num):
+#             if num % i == 0:
+#                 answer.pop()
+#                 answer.append(False)
+#                 break # 아예 이 반복을 마침
+#             else:
+#                 answer.pop()
+#                 answer.append(True)
+
+
+# print(num_)
+
+# print(bool(3%3))
+
+# a = 5
+# i = 2
+# for i in range(a):
+#     if a % i != 0:
+#         continue
+#     answer[]
+#     else:
+#         continue
+        
