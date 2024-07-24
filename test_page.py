@@ -152,3 +152,98 @@
 #     else:
 #         continue
         
+
+# text = 'hello'
+# text_2 = 'hellb'
+
+# text.replace
+# i = 0
+# for i in range(len(text)):
+#     text.replace(text[i], text[i])
+# print(text)
+
+# def solution(serial):
+#     seri = list(serial)
+#     sex = seri[:2]
+#     depart = seri[2:4]
+#     team = seri[4:6]
+#     vaild = seri[6:]
+#     team = str(team)
+#     if sex == [0,1]:
+#         sex = 'male'
+#     else:
+#         sex = 'female'
+#     if depart == [1,0]:
+#         depart = 'operation'
+#     elif depart == [1,1]:
+#         depart = 'sales'
+#     elif depart == [1,2]:
+#         depart = 'develope'        
+#     elif depart == [1,3]:
+#         depart = 'finance'        
+#     elif depart == [1,4]:
+#         depart = 'law'      
+#     else:
+#         depart = 'research'
+        
+#     answer = f'{sex}/{depart}/{team}/{vaild}'
+#     return answer
+
+# def solution(serial):
+#     answer = ''
+#     gender = serial[:2]
+#     depart = serial[2:4]
+#     team = serial[4:6]
+#     vaild = serial[6:]
+    
+#     info = {
+#         '01':'male',
+#         '02':'female',
+#         '10':'operation',
+#         '11':'sales',
+#         '12':'develop',
+#         '13':'finance',
+#         '14':'law',
+#         '15':'research'
+#     }
+
+#     answer += info[gender]
+#     answer += '/'
+#     answer += info[depart]
+#     answer += '/'
+#     answer += str(int(team)) + 'team'
+#     answer += '/'
+
+#     total = 0
+#     i = 0
+#     for i in serial[:6]:
+#         total += int(i)
+#     if total % 13 == int(vaild):
+#         answer += 'vaild'
+#     else:
+#         answer += 'unvaild'
+
+#     return answer
+
+# solution('01121344')
+# print(solution('01121344'))
+
+# position = [[0,1],[2,3]]
+# print(position[1][1])
+
+position = [[1.1]]
+board = [[0, 0, 0, 1], [0, 0, 0], [0, 0, 0]]
+print(board[int(position[0][0])])
+total = (-1)*int(board[0][1])
+print(total)
+print(len(board[0]))
+
+num = 68
+print(list(str((num))))
+
+num = {0:0, 1:0, 2:1}
+for i in range(len(num)):
+    if num[i] == 0:
+        num.pop(i)
+num_2 = {3:1}
+print(num+num_2)
