@@ -76,7 +76,7 @@ numbers = [17, 20, 24, 18, 21, 19, 23, 22]
 print(sorted(numbers, reverse=True))
 print(list(reversed(numbers)))
 print(numbers[::-1])
-print(numbers) # 웑본자료 수정하지 않음
+print(numbers) # 원본자료 수정하지 않음
 
 
 ## 리스트
