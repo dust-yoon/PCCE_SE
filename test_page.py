@@ -246,4 +246,7 @@ for i in range(len(num)):
     if num[i] == 0:
         num.pop(i)
 num_2 = {3:1}
-print(num+num_2)
+print(+num_2)
+
+a = ''
+a.__add__('0')
