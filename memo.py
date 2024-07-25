@@ -58,6 +58,7 @@
             range(10) => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
         3. in, not in 연산자
             "w" in word = True
+
 반복문
     for 변수 in 컨테이너:
     while 조건문:
@@ -67,4 +68,32 @@
         조건문 들어가는 변수 초기화 필요
     break(종료)
     continue(다음 반복으로 강제 이동)
-기초 자요구조와 로직설계
+
+내장 함수
+    len()
+    sum()
+    max()
+    min()
+    sorted(a)
+    sorted(a, reverse=True) => 기존 리스트 변화 ㄴ
+    reversed(a) = 변화 ㄴ
+    리스트 메서드
+    l.append(1)
+    l.insert(1, 8)
+    l.pop(), l.pop(3)
+    l.remove(3)
+    l.sort(reverse = True) = 원본 변화
+    l.reverse()
+    l.extend()
+    l.count()
+    L.index(5) = 5가 가장 처음 등장하는 인덱스 반환 없으면 에러
+    문자열 메서드
+    w.split(",") = 얘로 나눠서 리스트 반환(기본값 공백)
+    w.strip("a") = 제거(기본값 공백-양쪽에서 제거)
+    w.find() = 첫 인덱스, 없으면 -1
+    w.index() = 동일, 없으면 에러
+    w.count()
+    w.replace("a", "b")
+    w.join(word) = print("s".join(word))
+    w.
+    w.
